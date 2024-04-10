@@ -11,7 +11,7 @@ header {
     padding: 10px 20px;
 }
 
-.navbar{
+.List{
   width: 85%;
   margin: auto;
   padding: 35px 0;
@@ -20,7 +20,7 @@ header {
   justify-content: space-between;
 }
 
-.navbar ul li{
+.List ul li{
   list-style: none;
   display: inline-block;
   margin: 0 20px;
