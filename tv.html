@@ -1,9 +1,130 @@
-<DOCTYPE! html>
-  <html>
-  <head>
-    <title>TV Shows</title>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Games & Apps</title>
+</head>
+
+<body>
+   <nav>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">Warner bros</h1>
+            </div>
+           
+            <ul>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="games.html">Games & Apps</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="tv.html" class="active">TV Shows</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+              </ul>
+
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+    </div>
     
-  </body>
-  </html>
+   </nav>
+   
+    </div>
+    <article>
+    <div class="container">
+        <div class="content-container">
+           
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW SERIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/deadboydectives.jpg" alt="DEAD BOY DETECTIVE">
+                            <span class="movie-list-item-title">DEAD BOY DETECTIVE</span>
+                            <p class="movie-list-item-desc">ADVENTURE</p>
+                            <a href="https://www.warnerbros.com/tv/dead-boy-detectives" target="_blank">
+                            <button class="movie-list-item-button">Watch</button></a>
+                        </div>
+                       
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/thegirlsonthebus.jpg" alt="INJUSTICE 2">
+                            <span class="movie-list-item-title">THE GIRLS ON THE BUS</span>
+                            <p class="movie-list-item-desc">DRAMA</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow" style="display: none;"></i>            
+                </div>
+                                                            
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">RETURNING SERIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/abbott-elementary.jpg" alt="ABBOTT ELEMENTARY">
+                            <span class="movie-list-item-title">ABBOTT ELEMENTARY</span>
+                            <p class="movie-list-item-desc">COMEDY</p>
+                            <a href="https://www.warnerbros.com/tv/abbott-elementary-0" target="_blank">
+                            <button class="movie-list-item-button">Watch</button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/all_american.jpg" alt="ALL AMERICAN: HOMECOMING">
+                            <span class="movie-list-item-title">ALL AMERICAN: HOMECOMING</span>
+                            <p class="movie-list-item-desc">DRAMA</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/batwheels.jpg" alt="BATWHEELS">
+                            <span class="movie-list-item-title">BATWHEELS</span>
+                            <p class="movie-list-item-desc">ANIMATION</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/craig-of-the-creek.jpg" alt="CRAIG OF THE CREEK">
+                            <span class="movie-list-item-title">CRAIG OF THE CREEK</span>
+                            <p class="movie-list-item-desc">ANIMATION</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Bigbang.jpeg" alt="THE BIG BANG THEORY">
+                            <span class="movie-list-item-title">THE BIG BANG THEORY</span>
+                            <p class="movie-list-item-desc">COMEDY</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/theoriginals.jpg" alt="">
+                            <span class="movie-list-item-title">The Originals</span>
+                            <p class="movie-list-item-desc">DRAMA</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/tedlasso.png" alt="">
+                            <span class="movie-list-item-title">TED LASSO</span>
+                            <p class="movie-list-item-desc">COMEDY, DRAMA</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+    </article>
+    
+</body>
+
+</html>
