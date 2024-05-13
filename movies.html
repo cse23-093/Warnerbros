@@ -1,9 +1,221 @@
-<DOCTYPE! html>
-  <html>
-  <head>
-    <title>Movies</title>
-  </head>
-  <body>
-    
-  </body>
-  </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Movie Design</title>
+</head>
+
+<body>
+   <nav>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">Warner bros</h1>
+            </div>
+            
+            <ul>
+                <li><a href="movies.html" class="active">Movies</a></li>
+                <li><a href="games.html">Games & Apps</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="tv.html">TV Shows</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+              </ul>
+
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+   </nav>
+
+
+    <div class="container">
+        <div class="content-container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/hbo-the-matrix-resurrections.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>THE MATRIX RESURRECTIONS</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/cover.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Pirates of the Caribbean Salazar's Revenge</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/GODZILLA VS. KONG.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>GODZILLA VS. KONG</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/GODZILLA X KONG THE NEW EMPIRE.jpg" alt="GODZILLA X THE NEW EMPIRE">
+                            <span class="movie-list-item-title">GODZILLA</span>
+                            <p class="movie-list-item-desc">Only in Theaters March 29, 2024</p>
+                            <a href="https://www.warnerbros.com/movies/godzilla-vs-kong" target="_blank">
+                            <button class="movie-list-item-button" >Watch</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/joker_folie_a_deux.jpg" alt="Joker Folie a Deux">
+                            <span class="movie-list-item-title">Joker</span>
+                            <p class="movie-list-item-desc">Only in theaters October 4, 2024</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/the_watchers_.jpg" alt="The Watchers">
+                            <span class="movie-list-item-title">The Watchers</span>
+                            <p class="movie-list-item-desc">Only in theaters June 14, 2024</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/furiosa.jpg" alt="">
+                            <span class="movie-list-item-title">FURIOSA</span>
+                            <p class="movie-list-item-desc">Only in theaters May 2, 2024</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/beetlejuice.jpg" alt="BEETLEJUICE BEETLEJUICE">
+                            <span class="movie-list-item-title">BEETLEJUICE</span>
+                            <p class="movie-list-item-desc">Only in Theaters September 6, 2024</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Horizon.jpg" alt="Horizon: An American Saga Chapter 1">
+                            <span class="movie-list-item-title">Horizon:Chapter1</span>
+                            <p class="movie-list-item-desc">Only in Theaters June 28, 2024</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/trap.jpg" alt="Trap">
+                            <span class="movie-list-item-title">Trap</span>
+                            <p class="movie-list-item-desc">Only in Theaters August 9, 2024</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">MOVIE AND TV FAVOURITES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/barbie.jpg" alt="Barbie">
+                            <span class="movie-list-item-title">BARBIE</span>
+                            <p class="movie-list-item-desc">Own it today</p>
+                            <a href="https://www.warnerbros.com/movies/barbie" target="_blank">
+                            <button class="movie-list-item-button">Watch</button> </a>
+                       
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/wonka.jpg" alt="Wonka">
+                            <span class="movie-list-item-title">Wonka</span>
+                            <p class="movie-list-item-desc">Own it today</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/evil_dead.jpg" alt="Evil Dead Rise">
+                            <span class="movie-list-item-title">Evil Dead Rise</span>
+                            <p class="movie-list-item-desc">Own now on digital</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/meg.jpg" alt="MEG 2: THE TRENCH">
+                            <span class="movie-list-item-title">MEG 2: THE TRENCH</span>
+                            <p class="movie-list-item-desc">Own now on digital 4K </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Bigbang.jpeg" alt="THE BIG BANG THEORY">
+                            <span class="movie-list-item-title">THE BIG BANG THEORY</span>
+                            <p class="movie-list-item-desc">Own it today</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/theoriginals.jpg" alt="">
+                            <span class="movie-list-item-title">The Originals</span>
+                            <p class="movie-list-item-desc">Own it Today</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/tedlasso.png" alt="">
+                            <span class="movie-list-item-title">TED LASSO</span>
+                            <p class="movie-list-item-desc">Tv Series</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <footer class="footer">
+                <div>
+                    <a href="https://www.warnerbros.com/company" target="_blank" style="text-decoration: none;"><h4>Company</h4></a>
+                    <h4>TV Series</h4>
+                    <h4>Animated Movies</h4>
+                </div>
+                <div>
+                    <a href="https://www.warnermediaprivacy.com/policycenter/b2c/wm/" target="_blank" style="text-decoration: none;">
+                        <h4>Privacy Policy</h4></a>
+                    <h4>Cookie Policy</h4>
+                    <h4>Terms of Use</h4>
+                </div>
+                <div>
+                   <a href="https://www.warnerbros.com/help/faq" target="_blank" style="text-decoration: none;"><h4>Help Center</h4></a>
+                    <h4>Support</h4>
+                    <h4>FAQ</h4>
+                </div>
+                <div>
+                    <h4>Follow Us</h4>
+                    <div class="footer-social">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </footer>
+        
+        
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
