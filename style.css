@@ -23,6 +23,33 @@
     color: white;
     font-family: "Sen", sans-serif;
   }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    color: #4dbf00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a:hover {
+    background-color: #57df80;
+  }
+  
+  nav ul li a.active {
+    background-color: #3d4737;
+  }
   
   .logo-container {
     flex: 1;
@@ -264,33 +291,6 @@
 
 
 
-
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-  }
-  
-  nav ul li a {
-    display: inline-block;
-    color: #4dbf00;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  nav ul li a:hover {
-    background-color: #57df80;
-  }
-  
-  nav ul li a.active {
-    background-color: #3d4737;
-  }
 
   .footer{
     position: relative;
